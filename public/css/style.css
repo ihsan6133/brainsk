@@ -1,0 +1,51 @@
+.ul-reactions
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+.ul-reactions li
+{
+    break-inside: avoid;
+    border: 1px solid var(--text-bright);
+    padding: 10px;
+    border-radius: 10px;
+}
+.ul-reactions li:not(:last-child)
+{
+    margin-bottom: 20px;
+}
+
+.chemical-equation
+{
+    /* overflow-x: scroll; */
+    overflow: auto hidden;
+    
+}
+.page-break
+{
+    clear: both;
+    break-after: always;   
+}
+
+@media print {
+    .ul-reactions li
+    {
+        border: none;
+        border-radius: 0;
+        padding: 10px;
+    }
+    .ul-reactions li:not(:last-child)
+    {
+        margin-bottom: 0;
+    }
+    .ul-reactions li
+    {
+        border-bottom: 1px solid black;
+    }
+
+
+}
+
+  
+

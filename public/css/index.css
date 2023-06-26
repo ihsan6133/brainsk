@@ -1,0 +1,26 @@
+.articles-ul
+{
+    display: grid; 
+    grid-template-columns: auto 1fr;
+    padding: 0;
+    column-gap: 20px;
+    align-items: center;
+    
+    row-gap: 1rem;
+}
+.article
+{
+    display: contents;
+}
+
+.article a
+{
+    font-size: larger;
+    color: var(--text-bright);
+}
+
+.article span
+{
+    font-weight: 100;
+}
+

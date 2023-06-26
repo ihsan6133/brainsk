@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trigonometry</title>
+    <script defer src="js/trig.js"></script>
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/site.webmanifest">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>    
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/trig.css">
+</head>
+<body>
+    <header>
+        <div class="header-flex">
+          <h1><a href="/">Ihsan</a></h1>
+          <a href="https://linktr.ee/mo_ihsan"><img class="icon" src="images/icon.jpg" alt="About Me"></a>
+        </div>
+        <nav class="header-nav">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="/">Articles</a></li>
+            <li><button onclick="window.print()">Print</button></li>
+          </ul>
+        </nav>
+        <hr>
+      </header>
+        <main>
+        <h2>Trigonometry</h2>
+        
+        <section>
+            <h3>Unit Circle</h3>
+            <p>The length of the blue line is the sine of the angle &theta;.</p>
+            <canvas class="canvas">
+        </section>
+        <section>
+            <h3>Trigonometric Ratios of Specific Angles</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td>\(0^\circ\)</td>
+                        <td>\(30^\circ\)</td>
+                        <td>\(45^\circ\)</td>
+                        <td>\(60^\circ\)</td>
+                        <td>\(90^\circ\)</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>\(\sin\)</th>
+                        <td>\( 0 \)</td>
+                        <td>\( \frac{1}{2} \)</td>
+                        <td>\( \frac{1}{\sqrt2} \)</td>
+                        <td>\( \frac{\sqrt3}{2} \)</td>
+                        <td>\( 1\)</td>
+                    </tr>
+                    <tr>
+                        <th>\(\cos\)</th>
+                        <td>\( 1\)</td>
+                        <td>\( \frac{\sqrt3}{2} \)</td>
+                        <td>\( \frac{1}{\sqrt2} \)</td>
+                        <td>\( \frac{1}{2} \)</td>
+                        <td>\( 0 \)</td>
+                    </tr>
+                    <tr>
+                        <th>\(\tan\)</th>
+                        <td>\(0\)</td>
+                        <td>\(\frac{1}{\sqrt3}\)</td>
+                        <td>\(1\)</td>
+                        <td>\(\sqrt3\)</td>
+                        <td>\(\text{n.d}\)</td>
+                    </tr>
+                    <tr>
+                        <th>\(\cosec\)</th>
+                        <td>\(\text{n.d}\)</td>
+                        <td>\(2\)</td>
+                        <td>\(\sqrt2\)</td>
+                        <td>\(\frac{2}{\sqrt3}\)</td>
+                        <td>\(1\)</td>
+                    </tr>
+                    <tr>
+                        <th>\(\sec\)</th>
+                        <td>\(1\)</td>
+                        <td>\(\frac{2}{\sqrt3}\)</td>
+                        <td>\(\sqrt2\)</td>
+                        <td>\(2\)</td>
+                        <td>\(\text{n.d}\)</td>
+                    </tr>
+                    <tr>
+                        <th>\(\cot\)</th>
+                        <td>\(\text{n.d}\)</td>
+                        <td>\(\sqrt3\)</td>
+                        <td>\(1\)</td>
+                        <td>\(\frac{1}{\sqrt3}\)</td>
+                        <td>\(0\)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h3>Trigonometric Identities</h3>
+            <ul class="list-style-none">
+                <li>\(\sin^2\theta + \cos^2\theta = 1\)</li>
+                <li>\(1 + \tan^2\theta = \sec^2\theta\)</li>
+                <li>\(1 + \cot^2\theta = \cosec^2\theta\)</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

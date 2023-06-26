@@ -1,0 +1,60 @@
+
+.header-flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .icon
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+header h1
+{
+    margin: 0;
+}
+header h1 a
+{
+    color: unset;
+    text-decoration: none;
+}
+
+header h1 a:hover
+{
+    opacity: 0.7;
+    text-decoration: none;
+
+}
+
+.header-nav ul
+{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    padding: 0;
+}
+
+.header-nav button
+{
+    background: none;
+    margin: 0;
+    padding: 0;
+    color: var(--links);
+}
+
+.header-nav button:hover
+{
+    text-decoration: underline;
+}
+
+@media print 
+{
+
+    .header-nav
+    {
+        display: none;
+    }
+}

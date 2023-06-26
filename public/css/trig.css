@@ -1,0 +1,16 @@
+.canvas
+{
+    border-radius: 10px;
+    width: 100%;
+    aspect-ratio: 3;
+}
+
+table td, table th
+{
+    border: 1px solid;
+}
+
+td
+{
+    text-align: center;
+}
