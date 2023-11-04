@@ -119,7 +119,7 @@ function drawSine(data, circle, theta)
     }
     
     fill_text([0, 90, 180, 270, 360]);
-    if (window.innerWidth  > 400)
+    if (window.innerWidth  > 600)
     {
         fill_text([45, 135, 225, 315])
     }

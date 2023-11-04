@@ -39,15 +39,17 @@ header h1 a:hover
 
 .header-nav button
 {
+    border: none;
     background: none;
     margin: 0;
     padding: 0;
     color: var(--links);
+    text-decoration: underline;
 }
 
 .header-nav button:hover
 {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 @media print 
